@@ -60,7 +60,7 @@ void handleCANMessage()
     }
   }
 
-  if (CANMSG_DEBUG)
+  if (true)
   {
     Serial.print(F("MCP read result code: "));
     Serial.println(recvResult);
